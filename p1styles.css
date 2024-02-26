@@ -1,0 +1,410 @@
+/********w*************
+    
+    Project 1 Stylesheet
+    Name:Benjamin Omoregie
+    Date:19/02/2024
+    Description: This is the stylesheet for the Hayden Planetarium project 1 website. It contains the styles for the website.
+
+**********************/
+
+html,
+body,
+section,
+p,
+header,
+nav,
+footer,
+div,
+article,
+aside,
+ol,
+ul,
+li,
+h1,
+h6 {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e6e6e6;
+}
+
+div#container {
+	width: 900px;
+	background-color: #fff;
+	border-radius: 8px;
+	margin: 10px auto;
+	padding: 10px;
+	box-shadow: 1px 1px 2px #a2a2a2, -1px -1px 2px #a2a2a2;
+	font-family: verdana;
+}
+
+
+/* Header styles */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Top nvaigation menu*/
+div#topnav  {
+	margin: 10px 0px;
+	width: 80%;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	justify-content: space-between;
+	text-decoration-style: none;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+div#topnav nav ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+div#topnav nav ul li a:hover {
+	color: red;
+	
+}
+
+div#topnav nav ul li a:focus {
+	color: purple;
+}
+
+div#topnav nav ul {
+    list-style: none;
+}
+
+/*Defult style for the links*/
+nav ul li a {
+	text-decoration: none;
+}
+
+
+
+div#mainnav {
+	margin: 0px 0px;
+	width: 100%;
+	padding: 5px 0px;
+	text-decoration-style: none;
+	font-family: Verdana;
+	font-size: 13px;
+	text-align: center;
+	background: linear-gradient(to top,  rgb(5, 42, 206) 0%,rgb(9, 42, 241) 7%,rgb(28, 24, 233) 12%,rgb(39, 42, 221) 12%,rgb(46, 42, 253) 30%,rgb(112, 120, 240) 54%,rgb(91, 112, 233) 75%,rgb(79, 142, 236) 100%);
+}
+
+div#mainnav nav ul li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+div#mainnav nav ul a{
+	list-style: none;
+	color: #fff;
+}
+
+div#mainnav nav ul li a:hover {
+	color: red;
+}
+
+div#mainnav nav ul li a:focus {
+	color: purple;
+}
+
+/* Search button*/
+div#search {
+	text-align: right;
+	float: right;
+	margin: -30px 0px;
+}
+
+/* Search button text area*/
+div#search input[type="text"] {
+	width: 100px;
+}
+
+/*top logo container*/
+div#logo {
+	float: left;
+	margin-top: -10px;
+	margin-left: -6px;
+}
+
+div#logo img {
+	border-radius: 4px;
+	padding: 6px;
+}
+
+
+
+header#mainheader {
+	background-image: url(images/headerBackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 200px;
+}
+
+header#mainheader h1 {
+    font-size: 30px;
+	font-family: verdana;
+	float: left;
+	margin-top: 10px;
+	font-family: Verdana;
+
+}
+
+header#mainheader p {
+	font-size: 15px;
+	font-family: Verdana;
+	float: right;
+	margin-top: 140px;
+	margin-right: 40px;
+	right: 20px;
+	top: 20px;
+}
+
+
+aside li {
+	margin: 0px;
+	border-right: #fff;
+	border-left: #fff;
+	border-bottom: #fff;
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 56%,rgba(204,204,204,1) 56%);
+	padding: 6px;
+	width: 23%;
+	list-style: none;
+	position: static;
+}
+
+aside li a {
+	color:#000;
+	font-display: bold;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 10px;
+}
+
+aside li a:hover {
+	color: red;
+}
+
+aside li a:focus {
+	color: purple;
+}
+
+aside nav ul li {
+	margin: 0px;
+	border: 1px solid grey;
+	border-right: #fff;
+	border-left: #fff;
+	border-bottom: #fff;
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 56%,rgba(204,204,204,1) 56%);
+	padding: 6px;
+	width: 23%;
+	list-style-type: disc;
+	list-style-position: inside;
+	position: static;
+	font: bold;
+	font-family: verdana;
+}
+
+aside nav ul li a {
+	color:#000;
+	font-size: 10px;
+	font-display: bold;
+	font-family: verdana;
+
+}
+
+aside nav ul li a:hover {
+	color: red;
+}
+
+
+aside nav ul li a:focus {
+	color: purple;
+}
+
+aside p {
+	width: 23%;
+	font-size: 12px;
+	margin-top: 40px;
+	padding-top: 10px;
+	border-top: 1px solid silver;
+	font-family: verdana;
+}
+
+aside img.nasa {
+	float: right;
+	padding-right: 20px;
+}
+
+section#about h2{
+	float: left;
+	margin-top: -500px;
+	margin-left: 200px;
+	width: 78%;
+	padding-bottom: 5px;
+	border-bottom: 1px solid silver;
+}
+
+section#about h4{
+	float: left;
+	margin-top: -450px;
+	margin-left: 200px;
+	width: 100%;
+	font-size: 14px;
+	
+}
+section#about {
+    padding: 20px;
+}
+
+section#about p {
+	float: left;
+	margin-top: -415px;
+	margin-left: 200px;
+	width: 610px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+section#about p a {
+	color: blue;
+	text-decoration: none;
+}
+
+section#about p.mininav {
+	float: left;
+	margin-top: -540px;
+	margin-left: 190px;
+	font-size: 10px;
+}
+
+
+section#about p a:hover {
+	color: red;
+}
+
+section#about p a:focus {
+	color: purple;
+}
+
+section#secondabout p {
+	float: left;
+	margin-top: -330px;
+	margin-left: 220px;
+	width: 20%;
+	font-size: 13px;
+	line-height: 1.5;
+	width: 40%;
+}
+
+section#secondabout p a {
+	color: blue;
+	text-decoration: none;
+}
+
+section#secondabout p a:hover {
+	color: red;
+}
+
+figure#aboutimg {
+	float: right;
+	padding: 10px;
+	margin-top: -330px;
+	margin-left: 600px;
+	border: 1px solid silver;
+	width: auto;
+}
+
+
+figure#aboutimg figcaption{
+	font-size: 12px;
+	font-style: verdana;
+	margin-right: -15px;
+}
+
+nav#finalnav {
+	float: left;
+	margin-top: -235px;
+	margin-left: 230px;
+	line-height: 2.5;
+}
+
+nav#finalnav ul li {
+	list-style: none;
+	margin-left: 10px;
+}
+
+nav#finalnav ul li a {
+	color: blue;
+	font-size: 13px;
+}
+
+nav#finalnav ul li a:hover {
+	color: red;
+}
+
+nav#finalnav ul li a:focus {
+	color: purple;
+}
+
+/* Footer styles */
+footer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+	padding: 5px;
+	font-size: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: blue;
+}
+
+footer ul li a:hover {
+	color: red;
+}
+
+footer ul li a:focus {
+	color: purple;
+}
+
+footer p {
+	color: #a2a2a2;
+}
+
+footer  p.black {
+	color: #000;
+}
+
+footer p a {
+	text-decoration: none;
+	color: blue;
+}
+
+footer p a:hover {
+	color: red;
+}
+
+footer p a:focus {
+	color: purple;
+}
